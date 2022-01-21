@@ -1,0 +1,21 @@
+.contentsFlex {
+    background-color: palegreen;
+    display: flex;
+    margin: 10px;
+}
+
+.contentsFlexImg {
+    height: 200px;
+    width: 200px;
+}
+
+.contentsFlexTxT {
+    font-size: 25px;
+    line-height: 20px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.contentsDivClass {
+    background-color: rgb(152, 251, 152);
+}
