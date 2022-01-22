@@ -21,3 +21,23 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Foldery zostały dodane
+
+/src/components
+/src/components/CContents.css
+/src/components/CContents.js
+/src/components/CFooter.css
+/src/components/CFooter.js
+/src/components/CHeader.css
+/src/components/CHeader.js
+/src/components/CInner.js
+/src/components/COuter.css
+/src/components/COuter.js
+/src/components/COuter.module.css
+/src/res
+
+# Foldery zostały zmodyfikowane
+
+/src/App.css
+/src/App.js
