@@ -1,0 +1,24 @@
+.app__Vid {
+    height: 100vh;
+    position: relative;
+}
+
+.app__Vid video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.app__Vid-overlay {
+    background: rgba(0, 0, 0, .6);
+    inset: 0;
+    position: absolute;
+}
+
+.app__Vid-overlay-icon {
+    border: .1rem solid var(--color-gold-metallic);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 10%;
+    width: 5%;
+}

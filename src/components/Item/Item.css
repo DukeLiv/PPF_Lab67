@@ -1,0 +1,34 @@
+.app__Item {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.app__Item-head {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__Item-sub {
+    margin-top: .2rem;
+    width: 100%;
+}
+
+.app__Item-name {
+    flex: 1;
+}
+
+.app__Item-dash {
+    background: var(--color-gold-metallic);
+    height: .1rem;
+    margin: 0 1 rem;
+    width: 4rem;
+}
+
+.app__Item-price {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
