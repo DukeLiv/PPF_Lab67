@@ -1,0 +1,175 @@
+.section {
+  padding: 2rem 3rem;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.app__bg {
+  background: url('./res/background.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.app__wrap {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.app__wrap-infor {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.app__wrap-img {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.app__wrap-img img {
+  width: 100%;
+}
+
+.btn {
+  background-color: var(--color-gold-metallic);
+  border: none;
+  border-radius: .1rem;
+  color: var(--color-black);
+  cursor: pointer;
+  font-family: var(--font-base);
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: .1rem;
+  line-height: 2.5rem;
+  outline: none;
+  padding: .5rem 1.5rem;
+}
+
+.comcard {
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: .1rem;
+  line-height: 3rem;
+  text-transform: capitalize;
+}
+
+.headtext {
+  color: var(--color-gold-metallic);
+  font-family: var(--font-base);
+  font-size: 6rem;
+  letter-spacing: .1rem;
+  line-height: 6rem;
+  text-transform: capitalize;
+}
+
+.text {
+  color: var(--color-white);
+  font-family: var(--font-alt);
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  line-height: 2rem;
+}
+
+.sub-img {
+  width: 4.5rem;
+}
+
+@media screen and (min-width: 2000px) {
+
+  .btn,
+  .comcard {
+    font-size: 37px;
+    line-height: 67px;
+  }
+
+  .text {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .headtext {
+    font-size: 150px;
+    line-height: 210px;
+  }
+
+  .sub-img {
+    width: 8rem;
+  }
+
+}
+
+@media screen and (max-width: 1150px) {
+
+  .app__wrap {
+    flex-direction: column;
+  }
+
+  .app__wrap-img {
+    margin: 5rem 0 0 0;
+  }
+
+  .app__wrap-img img {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .section {
+    padding: 4rem;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .section {
+    padding: 4rem 2rem;
+  }
+  
+  .comcard {
+    font-size: 2.5rem;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .text {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  .comcard {
+    font-size: 1.5rem;
+  }
+
+  .headtext {
+    font-size: 45px;
+    line-height: 70px;
+  }
+
+}
